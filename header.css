@@ -13,6 +13,7 @@
 }
 
 .branding {
+    user-select: none; /* Disables text selection */
     display: flex;
     flex-direction: column;
     color: white;
