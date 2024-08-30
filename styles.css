@@ -84,9 +84,11 @@ body, html {
 }
 
 .left-button::before {
+    font-family: serif;
     content: '◄';
 }
 
 .right-button::before {
+    font-family: serif;
     content: '►';
 }
