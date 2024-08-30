@@ -1,0 +1,28 @@
+#loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.loader-branding {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+}
+
+.loader-branding h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Hind Siliguri", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.loader-branding p {
+    margin: 0;
+    margin-top: -1rem;
+    font-size: 1.1rem;
+}
