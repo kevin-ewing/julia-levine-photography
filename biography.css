@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.content {
+    max-width: 1100px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10rem;
+}
+
+.bio-image {
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.bio-image img {
+    width: 100%;
+    height: auto;
+}
+
+.photo-credit {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.bio-text {
+    width: 100%;
+    max-width: 800px;
+}
+
+.bio-text p {
+    margin-bottom: 1rem;
+}
+
+.bio-text p a {
+    color: #666;
+}
+
+@media screen and (min-width: 1200px) {
+    .bio-container {
+        flex-direction: row; /* Side-by-side layout for larger screens */
+        align-items: flex-start;
+    }
+
+    .bio-image {
+        flex: 1 1 50%; /* Image takes up 50% of the width */
+        margin-right: 2rem;
+        margin-bottom: 0;
+    }
+
+    .bio-text {
+        flex: 1 1 50%; /* Text takes up the remaining 50% of the width */
+    }
+}

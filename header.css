@@ -21,6 +21,11 @@
     margin-right: 2rem; /* Space between branding and menu options */
 }
 
+.branding a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .branding h1 {
     margin: 0;
     font-size: 2.3rem;
